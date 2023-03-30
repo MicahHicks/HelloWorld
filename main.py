@@ -1,2 +1,6 @@
-name = input('What is your name? ')
-print('Hi ' + name)
+print('Hello I am Jade. I will be your assistant today.')
+input('What are you looking for today? ')
+input('Great, what is your price range? ')
+input('Okay, would you like to also look at some monitors? ')
+input('Great! We have many different monitors for sale, what type are you interested in buying? ')
+input('Okay, we have 106 results for that brand. Would you like to see them all? ')
