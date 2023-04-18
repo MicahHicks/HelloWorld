@@ -13,11 +13,11 @@ elif user_response == "work":
 else:
     print('Sorry we do not sell that.')
 user_response1 = input('Which brand do you wish to look at? ')
-if user_response1 == "acer":
-    input('Ok, we have two in stock. Would you like to see them? ')
-elif user_response1 == "msi":
+if user_response1 == "msi":
     input('Ok, we have three in stock, would you like to see them? ')
     print('There is one intel i5 laptop, and two intel i7 laptops.')
+else:
+    print('Sorry we do not sell that')
 user_response2 = input('Which one do you want to buy? ')
 if user_response2 == "intel i5 laptop":
     print('Ok, thanks for your purchase. It will arrive at your house shortly.')
